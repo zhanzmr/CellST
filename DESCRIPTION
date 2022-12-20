@@ -20,10 +20,8 @@ Imports:
     reshape2,
     reticulate,
     fda,
-    CombMSC,
     igraph,
     network,
     ndtv,
     intergraph,
     networkDynamic,
-    ESCO
