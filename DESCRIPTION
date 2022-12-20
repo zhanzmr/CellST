@@ -19,6 +19,7 @@ Imports:
     gss,
     reshape2,
     reticulate,
+    CombMSC
     fda,
     igraph,
     network,
