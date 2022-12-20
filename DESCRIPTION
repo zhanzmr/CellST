@@ -3,7 +3,7 @@ Type: Package
 Title: Cell Smooth Transformation
 Version: 0.1.0
 Author: Mengrui Zhang, Jingyi Zhang, Dingyi Yu
-Maintainer: Mengrui Zhang mengrui@surrozen.com
+Maintainer: Mengrui Zhang <mengrui@surrozen.com>
 Description: CellST including functions constructing the cell fate trajectories and dynamic gene networks for time-course scRNA-seq data.
 Encoding: UTF-8
 LazyData: true
