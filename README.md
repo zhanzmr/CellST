@@ -40,9 +40,11 @@ trajectory_expression() returns a list containing gene expression of each cell l
 trajectory_expression <- trajectory_expression(total, cell_traj)
 ```
 
+smooth_cell_expression() returns smoothing gene expression patterns for individual cells by smoothing spline models. SSANOVA is used in this package.
 
-
-
+```
+total_pred <- smooth_cell_expression(trajectory_expression,npred=300)
+```
 
 
 
