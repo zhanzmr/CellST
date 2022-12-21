@@ -13,10 +13,13 @@ R CMD INSTALL CombMSC_1.4.2.1.tar.gz
 
 Create Conda enviroment
 Note that users need to set up a conda environment with package "pot" installed before using this function.
+
 To create conda enviroment:
+```
+conda create -n ot python=3.9
+pip install pot
 
-
-
+```
 
 Install CellST
 ```
@@ -26,10 +29,20 @@ install_github("zhanzmr/CellST")
 
 ## Usage
 
+cell_name_traj() accomplishes a cell lineage tracing method, which aligns two individual cells between any two adjacent time points via the optimal transport technique(Earth mover's distance is used in this function), and returns unique trajectories for individual cells.
 
 ```
-library(devtools)
-install_github("zhanzmr/CellST")
+cell_traj <- cell_name_traj(total)
 ```
+
+trajectory_expression() returns a list containing gene expression of each cell lineage trajectory.
+```
+trajectory_expression <- trajectory_expression(total, cell_traj)
+```
+
+
+
+
+
 
 
