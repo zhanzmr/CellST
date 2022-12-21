@@ -1,5 +1,7 @@
 # CellST
 
+An innovative machine-learning framework called Cell Smoothing Transformation (CellST) to elucidate the dynamic cell fate paths and construct gene networks in cell differentiation processes.
+
 ## Installation
 
 Please Note: 
