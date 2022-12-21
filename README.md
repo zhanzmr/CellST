@@ -11,7 +11,7 @@ The CombMSC is required but the package is archieved on Cran. Please downloaded 
 R CMD INSTALL CombMSC_1.4.2.1.tar.gz
 ```
 
-### Install CellST
+Install CellST
 
 ```
 library(devtools)
