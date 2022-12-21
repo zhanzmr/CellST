@@ -11,9 +11,14 @@ The CombMSC is required but the package is archieved on Cran. Please downloaded 
 R CMD INSTALL CombMSC_1.4.2.1.tar.gz
 ```
 
-Install CellST
+Create Conda enviroment
 Note that users need to set up a conda environment with package "pot" installed before using this function.
+To create conda enviroment:
 
+
+
+
+Install CellST
 ```
 library(devtools)
 install_github("zhanzmr/CellST")
