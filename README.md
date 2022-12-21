@@ -12,14 +12,19 @@ R CMD INSTALL CombMSC_1.4.2.1.tar.gz
 ```
 
 Install CellST
+Note that users need to set up a conda environment with package "pot" installed before using this function.
 
 ```
 library(devtools)
 install_github("zhanzmr/CellST")
 ```
 
-
-
-
 ## Usage
+
+
+```
+library(devtools)
+install_github("zhanzmr/CellST")
+```
+
 
